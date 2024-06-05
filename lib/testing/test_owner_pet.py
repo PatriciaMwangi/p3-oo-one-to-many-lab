@@ -15,6 +15,7 @@ def test_pet_init():
     owner = Owner("Jim")
     pet = Pet("Clifford", "dog", owner)
     assert pet.owner == owner
+    
 
     Pet.all = []
 
